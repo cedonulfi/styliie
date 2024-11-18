@@ -1,0 +1,22 @@
+/* table.css */
+
+/* Table-based Layout */
+.table-container {
+  display: table;
+  width: 100%;
+}
+
+.table-row {
+  display: table-row;
+}
+
+.table-cell {
+  display: table-cell;
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #f4f4f4;
+}
