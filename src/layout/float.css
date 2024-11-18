@@ -1,0 +1,30 @@
+/* float.css */
+
+/* Float-based Layout */
+.float-container {
+  overflow: hidden; /* Clear floats */
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+/* Example: Equal-width Columns */
+.float-columns .column {
+  float: left;
+  width: 50%; /* Adjust as needed */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
