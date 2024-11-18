@@ -1,0 +1,42 @@
+/* position.css */
+
+/* Position Utilities */
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+.position-sticky {
+  position: sticky;
+}
+
+.position-top {
+  top: 0;
+}
+
+.position-bottom {
+  bottom: 0;
+}
+
+.position-left {
+  left: 0;
+}
+
+.position-right {
+  right: 0;
+}
+
+/* Center Absolute Element */
+.position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
