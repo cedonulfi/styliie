@@ -1,0 +1,65 @@
+/* flexbox.css */
+
+/* Global Flex Container */
+.flex-container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+/* Flex Alignment */
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-start {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
+}
+
+/* Flex Direction */
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+/* Wrapping */
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Responsive Utilities */
+@media (max-width: 768px) {
+  .flex-row {
+    flex-direction: column;
+  }
+}
